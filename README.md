@@ -1,2 +1,2 @@
-# OODPy
-Object Oriented Python Lesson 
+# Learning Stuff
+All things learned.
