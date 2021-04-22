@@ -2,7 +2,7 @@
 
 class petshop:
     def __init__(self, name, age, breed, color, size):
-        self.name = name
+        self.name = namegit
         self.age = age
         self.breed = breed
         self.color = color
