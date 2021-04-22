@@ -16,8 +16,10 @@ class petshop:
 
 
 class Dog(petshop):
-    def speak("bark")
+    def speak(self):
+        print("bark")
 
 
 class Cat(petshop):
-    def speak("meow")
+    def speak(self):
+        print("meow")
