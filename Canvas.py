@@ -38,3 +38,12 @@ for element in given_list2:
     print(element)
 print(total4)
 # this will print 17, the sum of all the positive numbers in given_list2.
+
+total5 = 0
+i = 0
+while True:
+    total5 += given_list2[i]
+    i += 1
+    if given_list2[i] <= 0:
+        break
+print(total5)
