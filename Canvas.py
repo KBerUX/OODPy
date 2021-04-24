@@ -47,3 +47,17 @@ while True:
     if given_list2[i] <= 0:
         break
 print(total5)
+
+# find the
+# sum of all the negative numbers instead of the positive numbers
+# in given_list3
+given_list3 = [7, 5, 4, 4, 3, 1, -2, -3, -5, -7]
+
+
+print("printing total 6")
+total6 = 0
+i = 0
+while given_list3[i] < 0:
+    total6 += given_list3[i]
+    i += 1
+print(total6)
