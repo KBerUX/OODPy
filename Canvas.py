@@ -53,7 +53,6 @@ print(total5)
 # in given_list3
 given_list3 = [7, 5, 4, 4, 3, 1, -2, -3, -5, -7]
 
-
 print("printing total 6")
 total6 = 0
 i = 0
@@ -61,3 +60,15 @@ while given_list3[i] < 0:
     total6 += given_list3[i]
     i += 1
 print(total6)
+
+
+# as long as i is less than the length of the array, the loop will continue
+total10 = 0
+i = 0
+while i < len(given_list3):
+    # the if statement checks each value in the array and see if it is less than zero, if it is less than zero, it adds it to the total.
+    if given_list3[i] <= 0:
+        total10 += given_list3[i]
+# i goes up 1 regardless if the if statement is true or false.
+    i += 1
+print(total10)
